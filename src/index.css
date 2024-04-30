@@ -1,1 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  /* colors */
+  --clr-text-white: hsl(0, 0%, 100%);
+  /* theme1 */
+  --clr-t1-blue-main: hsl(222, 26%, 31%);
+  --clr-t1-blue-toggle: hsl(223, 31%, 20%);
+  --clr-t1-blue-screen: hsl(224, 36%, 15%);
+  --clr-t1-blue-key: hsl(225, 21%, 49%);
+  --clr-t1-blue-key-shadow: hsl(224, 28%, 35%);
+  --clr-t1-red-key-toggle: hsl(6, 63%, 50%);
+  --clr-t1-red-key-shadow: hsl(6, 70%, 34%);
+  --clr-t1-orange-key: hsl(30, 25%, 89%);
+  --clr-t1-orange-key-shadow: hsl(28, 16%, 65%);
+  --clr-t1-text-blue: hsl(221, 14%, 31%);
+
+  /* theme2 */
+  --clr-t2-gray-main: hsl(0, 0%, 90%);
+  --clr-t2-red-toggle: hsl(0, 5%, 81%);
+  --clr-t2-gray-screen: hsl(0, 0%, 93%);
+  --clr-t2-key-dark: hsl(185, 42%, 37%);
+  --clr-t2-key-shadow-dark: hsl(185, 58%, 25%);
+  --clr-t2-key-orange: hsl(25, 98%, 40%);
+  --clr-t2-key-shadow-orange: hsl(25, 99%, 27%);
+  --clr-t2-key-yellow: hsl(45, 7%, 89%);
+  --clr-t2-key-shadow-dark-grayish: hsl(35, 11%, 61%);
+  --clr-t2-text-gray: hsl(60, 10%, 19%);
+
+  /* theme3 */
+  --clr-t3-violet-main: hsl(268, 75%, 9%);
+  --clr-t3-violet-toggle: hsl(268, 71%, 12%);
+  --clr-t3-key-violet: hsl(281, 89%, 26%);
+  --clr-t3-key-shadow-violet: hsl(285, 91%, 52%);
+  --clr-t3-key-cyan: hsl(176, 100%, 44%);
+  --clr-t3-key-shadow-cyan: hsl(177, 92%, 70%);
+  --clr-t3-key-dark-violet: hsl(268, 47%, 21%);
+  --clr-t3-key-shadow-dark-violet: hsl(290, 70%, 36%);
+  --clr-t3-text-yellow: hsl(52, 100%, 62%);
+  --clr-t3-text-blue: hsl(198, 20%, 13%);
+
+
+  /* font-sizes */
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-700: 1.5rem;
+  --fs-600: 1rem;
+  --fs-500: 1.75rem;
+  --fs-400: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+}
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+}
+
+/* set up the body */
+body {
+  font-family: "League Spartan", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+}
+
 
