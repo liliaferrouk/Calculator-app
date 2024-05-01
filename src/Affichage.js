@@ -1,10 +1,10 @@
 import React from 'react'
 import './Affichage.css'
 
-function Affichage() {
+function Affichage({affichage}) {
   return (
     <div className='Affichage'>
-      <p>399.981</p>
+      <p>{affichage}</p>
     </div>
   )
 }
