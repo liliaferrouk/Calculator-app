@@ -1,9 +1,10 @@
 import React from 'react'
 import './Affichage.css'
 
-function Affichage({affichage}) {
+function Affichage({theme, affichage}) {
+  const affichageClass = `Affichage-theme${theme}`;
   return (
-    <div className='Affichage'>
+    <div className={`Affichage ${affichageClass}`}>
       <p>{affichage}</p>
     </div>
   )

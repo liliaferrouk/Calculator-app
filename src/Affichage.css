@@ -1,12 +1,22 @@
 .Affichage{
-    background-color: var(--clr-t1-blue-screen);
-    color: var(--clr-text-white);
     height: 80px;
     border-radius: 10px;
     padding-inline: 25px;
     display: flex;
     justify-content: end;
     align-items: center;
+}
+.Affichage-theme1{
+    background-color: var(--clr-t1-blue-screen);
+    color: var(--clr-text-white);
+}
+.Affichage-theme2{
+    background-color: var(--clr-t2-gray-screen);
+    color: var(--clr-t2-text-gray);
+}
+.Affichage-theme3{
+    background-color: var(--clr-t3-screen);
+    color: var(--clr-t3-text-yellow);
 }
 
 .Affichage > p{

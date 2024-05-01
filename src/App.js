@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
       <Header theme={theme} setTheme={setTheme}/>
-      <Affichage affichage={affichage}/>
-      <Keys setAffichage={setAffichage}/>
+      <Affichage theme={theme} affichage={affichage}/>
+      <Keys theme={theme} setAffichage={setAffichage}/>
     </div>
   );
 }

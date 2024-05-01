@@ -5,9 +5,10 @@ import KeyReset from './KeyReset'
 import KeyEquals from './KeyEquals'
 import KeyDel from './KeyDel'
 
-function Keys({setAffichage}) {
+function Keys({theme,setAffichage}) {
+  const KeysClass = `Grid-theme${theme}`;
   return (
-    <div className='Grid'>
+    <div className={`Grid ${KeysClass}`}>
       <Key valeur={"7"} setAffichage={setAffichage}/>
       <Key valeur={"8"} setAffichage={setAffichage}/>
       <Key valeur={"9"} setAffichage={setAffichage}/>
