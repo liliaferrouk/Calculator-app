@@ -146,3 +146,10 @@ body{
     align-items: center;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  /* dark mode styles here (the same as light XD) */
+  body{
+    background-color: var(--clr-t1-blue-main);
+  }
+}

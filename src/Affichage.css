@@ -23,3 +23,18 @@
     font-size: 2.75rem;
     font-weight: 600;
 }
+
+@media (prefers-color-scheme: dark) {
+    .Affichage-theme1{
+        background-color: var(--clr-t1-blue-screen);
+        color: var(--clr-text-white);
+    }
+    .Affichage-theme2{
+        background-color: var(--clr-t2-gray-screen);
+        color: var(--clr-t2-text-gray);
+    }
+    .Affichage-theme3{
+        background-color: var(--clr-t3-screen);
+        color: var(--clr-t3-text-yellow);
+    }
+  }
