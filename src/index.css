@@ -7,11 +7,12 @@
   --clr-t1-blue-main: hsl(222, 26%, 31%);
   --clr-t1-blue-toggle: #252d45;
   --clr-t1-blue-screen: #181f32;
+  --clr-t1-blue-keys:#252d44;
   --clr-t1-blue-key: hsl(225, 21%, 49%);
   --clr-t1-blue-key-shadow: hsl(224, 28%, 35%);
   --clr-t1-orange-toggle: hsl(6, 63%, 50%);
   --clr-t1-red-key-shadow: hsl(6, 70%, 34%);
-  --clr-t1-orange-key: hsl(30, 25%, 89%);
+  --clr-t1-key-normal: hsl(30, 25%, 89%);
   --clr-t1-orange-key-shadow: hsl(28, 16%, 65%);
   --clr-t1-text-blue: hsl(221, 14%, 31%);
 
@@ -131,5 +132,16 @@ body{
   justify-content: space-between;
   width: 100vw;
   height: 100vh;
-  padding: 6% 4%;
+  padding: 4vh 4vw;
+}
+
+@media screen and (min-width: 500px) {
+  .App{
+    width: 500px;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
