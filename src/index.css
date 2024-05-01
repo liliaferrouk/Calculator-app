@@ -18,7 +18,7 @@
 
   /* theme2 */
   --clr-t2-gray-main: hsl(0, 0%, 90%);
-  --clr-t2-red-toggle: hsl(0, 5%, 81%);
+  --clr-t2-toggle: #d2cdd0;
   --clr-t2-gray-screen: hsl(0, 0%, 93%);
   --clr-t2-key-dark: hsl(185, 42%, 37%);
   --clr-t2-key-shadow-dark: hsl(185, 58%, 25%);
@@ -30,7 +30,7 @@
 
   /* theme3 */
   --clr-t3-violet-main: hsl(268, 75%, 9%);
-  --clr-t3-violet-toggle: hsl(268, 71%, 12%);
+  --clr-t3-toggle: hsl(268, 71%, 12%);
   --clr-t3-key-violet: hsl(281, 89%, 26%);
   --clr-t3-key-shadow-violet: hsl(285, 91%, 52%);
   --clr-t3-key-cyan: hsl(176, 100%, 44%);

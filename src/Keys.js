@@ -5,7 +5,7 @@ import KeyReset from './KeyReset'
 import KeyEquals from './KeyEquals'
 import KeyDel from './KeyDel'
 
-function Keys({affichage,setAffichage}) {
+function Keys({setAffichage}) {
   return (
     <div className='Grid'>
       <Key valeur={"7"} setAffichage={setAffichage}/>

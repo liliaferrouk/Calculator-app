@@ -1,7 +1,16 @@
 header{
-    color: var(--clr-text-white);
     display: flex;
     align-items: center;
+}
+
+.header-theme1{
+    color: var(--clr-text-white);
+}
+.header-theme2{
+    color: var(--clr-t2-text-gray);
+}
+.header-theme3{
+    color: var(--clr-t3-text-yellow);
 }
 
 header > h1{
@@ -27,17 +36,40 @@ header > h2{
     margin-left: 5px;
 }
 
-.ruban-change-theme{
+header .ruban-change-theme{
     width: 60px;
     height: 25px;
-    background-color: var(--clr-t1-blue-toggle);
     border-radius: 25px;
     padding: 2.5px;
+    cursor: pointer;
 }
 
-.petit-cercle{
-    background-color: var(--clr-t1-orange-toggle);
+.header-theme1 .ruban-change-theme{
+    background-color: var(--clr-t1-blue-toggle);
+}
+.header-theme2 .ruban-change-theme{
+    background-color: var(--clr-t2-toggle);
+}
+.header-theme3 .ruban-change-theme{
+    background-color: var(--clr-t3-toggle);
+}
+
+header .petit-cercle{
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    position: relative;
+}
+
+.header-theme1 .petit-cercle{
+    background-color: var(--clr-t1-orange-toggle);
+    left: 0px;
+}
+.header-theme2 .petit-cercle{
+    background-color: var(--clr-t2-key-orange);
+    left: 16px;
+}
+.header-theme3 .petit-cercle{
+    background-color: var(--clr-t3-key-cyan);
+    left: 33px;
 }
