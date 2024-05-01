@@ -1,0 +1,15 @@
+.Affichage{
+    background-color: var(--clr-t1-blue-screen);
+    color: var(--clr-text-white);
+    height: 80px;
+    border-radius: 10px;
+    padding-inline: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.Affichage > p{
+    font-size: 2.75rem;
+    font-weight: 600;
+}

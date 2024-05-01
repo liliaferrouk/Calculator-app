@@ -5,11 +5,11 @@
   --clr-text-white: hsl(0, 0%, 100%);
   /* theme1 */
   --clr-t1-blue-main: hsl(222, 26%, 31%);
-  --clr-t1-blue-toggle: hsl(223, 31%, 20%);
-  --clr-t1-blue-screen: hsl(224, 36%, 15%);
+  --clr-t1-blue-toggle: #252d45;
+  --clr-t1-blue-screen: #181f32;
   --clr-t1-blue-key: hsl(225, 21%, 49%);
   --clr-t1-blue-key-shadow: hsl(224, 28%, 35%);
-  --clr-t1-red-key-toggle: hsl(6, 63%, 50%);
+  --clr-t1-orange-toggle: hsl(6, 63%, 50%);
   --clr-t1-red-key-shadow: hsl(6, 70%, 34%);
   --clr-t1-orange-key: hsl(30, 25%, 89%);
   --clr-t1-orange-key-shadow: hsl(28, 16%, 65%);
@@ -120,4 +120,16 @@ select {
 }
 }
 
+/* styling */
+body{
+  background-color: var(--clr-t1-blue-main);
+}
 
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding: 6% 4%;
+}
