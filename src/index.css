@@ -139,7 +139,7 @@ body{
 @media screen and (min-width: 600px) {
   .App{
     width: 600px;
-    padding: 8vh 4vw;
+    padding: 7vh 4vw;
   }
   body{
     display: flex;
